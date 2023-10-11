@@ -8,15 +8,10 @@ const Registration = () => {
     password: "",
     passwordConfirm: ""
   });
-  
-  const passwordsValidation = () => {
-    user.password ==! user.passwordConfirm && alert("Hesla se neshodují. Zkuste to znovu.")
-  }
 
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(user);
-    passwordsValidation;
   }
 
 
